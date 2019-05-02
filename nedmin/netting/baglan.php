@@ -1,6 +1,6 @@
 <?php
 try {
-	$db=new PDO("mysql:host=localhost;dbname=ilterisyonetim;charset=utf8",'root','sako1234567');
+	$db=new PDO("mysql:host=localhost;dbname=ilterisyonetim;charset=utf8",'root',password);
 //	echo "basarili";
 } catch (Exception $e) {
 	$e -> getMessage();
